@@ -71,7 +71,7 @@ mongoose
         $push: {
           pastMeetings: {
             ID: req.body.meetingId,
-            members: req.body.highMember,
+            members: req.body.count,
             startTime: req.body.startDatetime,
             endTime: req.body.endDatetime,
             chats: valuesArray,
